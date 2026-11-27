@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/AI-LOCAL%20INFERENCE-2563eb?style=for-the-badge" alt="Local AI inference" />
   <img src="https://img.shields.io/badge/MODE-FULLY%20OFFLINE-0f766e?style=for-the-badge" alt="Offline" />
   <img src="https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-8b5cf6?style=for-the-badge" alt="In development" />
-  <img src="https://img.shields.io/badge/SOURCE-PRIVATE-374151?style=for-the-badge" alt="Private source" />
+  <img src="https://img.shields.io/badge/SOURCE-CLOSED%20%2F%20PROPRIETARY-374151?style=for-the-badge" alt="Closed-source proprietary software" />
 </p>
 
 *One workspace. Multiple AI models. A unified creative pipeline.*
@@ -20,6 +20,15 @@
 </div>
 
 ---
+
+> [!IMPORTANT]
+> **Proprietary project | Public portfolio only | Closed source**
+>
+> Winter Asset Studio is an independently authored software project created and controlled by **Alexandre Kamimura Paulo (Wintersky)**. This public repository exists exclusively to showcase the project, its development progress, and selected demonstrations as part of the creator's professional portfolio.
+>
+> The studio is **not open source**. Its source code, internal implementation, private configurations, and application builds are not provided and will not be released through this repository. Publication of this showcase does not grant a license to use, reproduce, modify, distribute, or commercialize the creator's proprietary work beyond rights provided by applicable law or GitHub's terms. Any additional permission requires prior express written authorization from the rights holder. Third-party models and components remain subject to their respective licenses.
+>
+> **Copyright © 2026 Alexandre Kamimura Paulo. All rights reserved in the creator's original proprietary work.**
 
 ## ✦ Overview
 
@@ -32,9 +41,9 @@ Rather than relying on hosted inference services, the studio is built around a *
 > **Development note:** This is a work-in-progress project. The images document real interface states and experiments, while the full end-to-end workflow is still being developed. Features listed in the roadmap are goals, not completed capabilities.
 
 <div align="center">
-  <img src="assets/bear-walk-preview.png" width="900" alt="Bear character walking animation workspace preview in Winter Asset Studio" />
+  <img src="assets/WinterGif_20261123_161406.gif" width="900" alt="Animated bear walking preview captured in Winter Asset Studio" />
   <br />
-  <sub>Walking-animation workspace: captured frame from the local animation preview. An actual animated GIF will replace this still when available.</sub>
+  <sub>Animated walking preview captured in the local studio workspace.</sub>
 </div>
 
 ## ⚡ What makes it different?
@@ -115,13 +124,11 @@ A quadruped animation workspace featuring the character, timeline controls, and 
 
 **Walking preview**
 
-![Bear walking animation workspace still](assets/bear-walk-preview.png)
-
-*Still frame from the walking-animation preview. A full-motion capture will be added to the showcase.*
-
-<!-- When a valid animated GIF is available, save it as assets/bear-walk.gif and replace the image above with:
-![Bear walking — real animation captured from Winter Asset Studio](assets/bear-walk.gif)
--->
+<div align="center">
+  <img src="assets/WinterGif_20261123_161406.gif" width="920" alt="Bear walking animation captured in Winter Asset Studio" />
+  <br />
+  <sub>Animated capture of the quadruped walking test in the studio.</sub>
+</div>
 
 ---
 
@@ -129,9 +136,11 @@ A quadruped animation workspace featuring the character, timeline controls, and 
 
 An experimental growl sound from the project's audio workflow:
 
-**[▶ Listen to the bear sound effect (MP3)](audio/bear-growl-preview.mp3)** · 
+**[↓ Bear growl sound effect (MP3)](audio/bear-growl-preview.mp3)**
 
-> The MP4 uses a **still image** alongside the audio. It is a sound preview, not a moving-character animation. GitHub may display media links differently depending on the device/browser.
+<!-- To enable inline playback, upload an MP4 sound preview directly into the GitHub README editor and place the generated GitHub user-attachments URL on its own line here. -->
+
+*The MP3 link opens or downloads the original sound sample depending on the browser. An inline video-based sound preview can be added using a GitHub media attachment.*
 
 Sound effects and music form part of the broader intended production pipeline; this public showcase currently contains one sound-effect example.
 
@@ -165,6 +174,7 @@ The project is not currently distributed as an installable application. Its sour
 
 - [x] Multi-stage asset workflow interface and prototype experiments
 - [x] Screenshots of geometry, texturing, rigging, and animation workspaces
+- [x] Animated walking preview of the bear character
 - [x] Experimental sound-effect preview
 - [x] GPU-monitoring and protection controls shown in the UI
 - [ ] Demonstrated, validated end-to-end unattended asset generation
@@ -178,6 +188,8 @@ The project is not currently distributed as an installable application. Its sour
 ## 🔐 Code & availability
 
 This repository is a **public portfolio showcase** and contains **documentation and example media only**. It does not include the proprietary studio source code, installed AI models, configuration secrets, or a downloadable application.
+
+The studio is closed-source and proprietary. No source-code release or application distribution is offered through this portfolio. The creator reserves all applicable rights in original proprietary material. Third-party components remain governed by their respective licenses.
 
 This project is under active development. The screenshots and examples are intended to communicate its direction and experimental progress, not a finished commercial product.
 
